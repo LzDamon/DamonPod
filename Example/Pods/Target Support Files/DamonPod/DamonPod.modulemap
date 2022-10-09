@@ -1,0 +1,6 @@
+framework module DamonPod {
+  umbrella header "DamonPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0040508EDC20FA6A727B188D514FDCF7 /* DamonPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0771C935039FE1D640FE21359E95C16 /* DamonPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0203B829A2664F8FEEF627A5B390B66D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		378084F3464919C0F693061D5D8AD2D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4896E05577A7811340623145C1162DE3 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8788C1440E6804AE4553348527466078 /* Dog.m */; };
+		68806F92894B938CC6A7AFA57ADDA790 /* Pods-DamonPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BEA6D754E8CBFF604547CE81FC707A /* Pods-DamonPod_Example-dummy.m */; };
+		6917F0B284C7118353274BEC340AD938 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B530C5784FF7C7C8323A3D84243F9EE3 /* DamonPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9636F625153C076D72C4AC7DC5C17961 /* DamonPod-dummy.m */; };
+		E53F5ABC07C990A111DDE4ED850E55FB /* Pods-DamonPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D637EB8EA322279927FB43C3998C8079 /* Pods-DamonPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6F9596649BB249DECB2C64C96963A46 /* Dog.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE9FE84E6D86A28EA198AAE33F13996 /* Dog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDE53013BEAE2457D6DE48AEA713FF59 /* Pods-DamonPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5304D30705801D01A9F76DE23AFCE54E /* Pods-DamonPod_Tests-dummy.m */; };
+		F2037C72A9555A1E308FCB623FE4F1B4 /* Pods-DamonPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C6531D2CC162061B830617CB1C9AB4 /* Pods-DamonPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E24F708DA982371DFAF493DD492637D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2558E87C7D11990B621A14EE4C16EB12;
+			remoteInfo = DamonPod;
+		};
+		B48C438893EE0A0F527DD3EB2CB00105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92982DC5DEFBB3FAA8342C294AF99CA0;
+			remoteInfo = "Pods-DamonPod_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A561C57FEF86D968424C7094A288CC /* Pods-DamonPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DamonPod_Tests.modulemap"; sourceTree = "<group>"; };
+		00C6531D2CC162061B830617CB1C9AB4 /* Pods-DamonPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DamonPod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		19EEC90AD904D90C5921F488921E7273 /* Pods-DamonPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DamonPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		248FBC993A4E4034E1BB5C025039D894 /* DamonPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DamonPod.modulemap; sourceTree = "<group>"; };
+		25243749962BFE558FA7F1B3A3AE5068 /* DamonPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DamonPod-prefix.pch"; sourceTree = "<group>"; };
+		275F63F45F2D935924322C61C7B8FDC3 /* Pods-DamonPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DamonPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2ACA9CD9B66A350EEC7DAE7BE505F786 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3B57836E3D2BD9F97F920B4D61313BA2 /* Pods-DamonPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DamonPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3DE2ABB6A1D3F41302740CCF7594E1DB /* Pods-DamonPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DamonPod_Example.modulemap"; sourceTree = "<group>"; };
+		4A3FC1F2872C7FF3F3B8F0C69C7679C0 /* Pods-DamonPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DamonPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F21E8F9B22C8C7E2BC1A9CE60FFFFCF /* DamonPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DamonPod.debug.xcconfig; sourceTree = "<group>"; };
+		50BEA6D754E8CBFF604547CE81FC707A /* Pods-DamonPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DamonPod_Example-dummy.m"; sourceTree = "<group>"; };
+		5304D30705801D01A9F76DE23AFCE54E /* Pods-DamonPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DamonPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		610F4C963AEB59DD1B99C62A9299C446 /* Pods_DamonPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DamonPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		695A4EC8A7F2CD3697C2CC0AE3865F63 /* Pods_DamonPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DamonPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74AE4BB457C0230506794104082E307F /* DamonPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DamonPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		754C93A83C0A5EB9071AE1CC4B665A1C /* Pods-DamonPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DamonPod_Example-Info.plist"; sourceTree = "<group>"; };
+		8788C1440E6804AE4553348527466078 /* Dog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Dog.m; path = DamonPod/Classes/Dog.m; sourceTree = "<group>"; };
+		882BFB6B5C587D6F6B66612E17F38B69 /* Pods-DamonPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DamonPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8ED901C386F2070121901635D2D9264B /* Pods-DamonPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DamonPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9636F625153C076D72C4AC7DC5C17961 /* DamonPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DamonPod-dummy.m"; sourceTree = "<group>"; };
+		9924EE37C5D12A94B81E5C242041D99A /* Pods-DamonPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DamonPod_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADB3D117F9E23222FC47B94C05FDCD5B /* Pods-DamonPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DamonPod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BDE9FE84E6D86A28EA198AAE33F13996 /* Dog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Dog.h; path = DamonPod/Classes/Dog.h; sourceTree = "<group>"; };
+		C0771C935039FE1D640FE21359E95C16 /* DamonPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DamonPod-umbrella.h"; sourceTree = "<group>"; };
+		C7D4A0ABB216EDB29EDD5BA3B525BAF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D36D37B19894BDA466491B5F09F37C30 /* DamonPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DamonPod.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		D637EB8EA322279927FB43C3998C8079 /* Pods-DamonPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DamonPod_Example-umbrella.h"; sourceTree = "<group>"; };
+		E4DCC3936AD5E336A9C8B4131B61BECE /* Pods-DamonPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DamonPod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E8954CD12AD1A38BD5B71318242F8B6A /* Pods-DamonPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DamonPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F07001B53A2D6E9CD8E99438CE7D754F /* DamonPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DamonPod-Info.plist"; sourceTree = "<group>"; };
+		FAFF3C3CE083357125CE11DC89E2FB51 /* DamonPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DamonPod.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A891321234406FE01D6E10F6A2E62F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6917F0B284C7118353274BEC340AD938 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9200F89A0A2F62F619C1DF37950C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0203B829A2664F8FEEF627A5B390B66D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF284DAF34E7EDCD28FAF8FA64EBE70E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378084F3464919C0F693061D5D8AD2D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092739549F976FAEF8BF6165A9246424 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3A8DFCB56E0E8526634CD7FC0782EBE /* DamonPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2853D6A5A9F86ED7219B0D0F443880AB /* Pods-DamonPod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3DE2ABB6A1D3F41302740CCF7594E1DB /* Pods-DamonPod_Example.modulemap */,
+				275F63F45F2D935924322C61C7B8FDC3 /* Pods-DamonPod_Example-acknowledgements.markdown */,
+				19EEC90AD904D90C5921F488921E7273 /* Pods-DamonPod_Example-acknowledgements.plist */,
+				50BEA6D754E8CBFF604547CE81FC707A /* Pods-DamonPod_Example-dummy.m */,
+				E4DCC3936AD5E336A9C8B4131B61BECE /* Pods-DamonPod_Example-frameworks.sh */,
+				754C93A83C0A5EB9071AE1CC4B665A1C /* Pods-DamonPod_Example-Info.plist */,
+				D637EB8EA322279927FB43C3998C8079 /* Pods-DamonPod_Example-umbrella.h */,
+				E8954CD12AD1A38BD5B71318242F8B6A /* Pods-DamonPod_Example.debug.xcconfig */,
+				ADB3D117F9E23222FC47B94C05FDCD5B /* Pods-DamonPod_Example.release.xcconfig */,
+			);
+			name = "Pods-DamonPod_Example";
+			path = "Target Support Files/Pods-DamonPod_Example";
+			sourceTree = "<group>";
+		};
+		32DBF74D407808E0562198CED680F6D4 /* Pods-DamonPod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				00A561C57FEF86D968424C7094A288CC /* Pods-DamonPod_Tests.modulemap */,
+				4A3FC1F2872C7FF3F3B8F0C69C7679C0 /* Pods-DamonPod_Tests-acknowledgements.markdown */,
+				882BFB6B5C587D6F6B66612E17F38B69 /* Pods-DamonPod_Tests-acknowledgements.plist */,
+				5304D30705801D01A9F76DE23AFCE54E /* Pods-DamonPod_Tests-dummy.m */,
+				9924EE37C5D12A94B81E5C242041D99A /* Pods-DamonPod_Tests-Info.plist */,
+				00C6531D2CC162061B830617CB1C9AB4 /* Pods-DamonPod_Tests-umbrella.h */,
+				8ED901C386F2070121901635D2D9264B /* Pods-DamonPod_Tests.debug.xcconfig */,
+				3B57836E3D2BD9F97F920B4D61313BA2 /* Pods-DamonPod_Tests.release.xcconfig */,
+			);
+			name = "Pods-DamonPod_Tests";
+			path = "Target Support Files/Pods-DamonPod_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		58F74B176B7BB260BC2FE7B23FBD9B67 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				248FBC993A4E4034E1BB5C025039D894 /* DamonPod.modulemap */,
+				9636F625153C076D72C4AC7DC5C17961 /* DamonPod-dummy.m */,
+				F07001B53A2D6E9CD8E99438CE7D754F /* DamonPod-Info.plist */,
+				25243749962BFE558FA7F1B3A3AE5068 /* DamonPod-prefix.pch */,
+				C0771C935039FE1D640FE21359E95C16 /* DamonPod-umbrella.h */,
+				4F21E8F9B22C8C7E2BC1A9CE60FFFFCF /* DamonPod.debug.xcconfig */,
+				FAFF3C3CE083357125CE11DC89E2FB51 /* DamonPod.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DamonPod";
+			sourceTree = "<group>";
+		};
+		60479D5D21D6B6582267E2EFACF98212 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D36D37B19894BDA466491B5F09F37C30 /* DamonPod.podspec */,
+				C7D4A0ABB216EDB29EDD5BA3B525BAF8 /* LICENSE */,
+				2ACA9CD9B66A350EEC7DAE7BE505F786 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9F2D622CDC86E9AE196383507FB2B55E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2853D6A5A9F86ED7219B0D0F443880AB /* Pods-DamonPod_Example */,
+				32DBF74D407808E0562198CED680F6D4 /* Pods-DamonPod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A3A8DFCB56E0E8526634CD7FC0782EBE /* DamonPod */ = {
+			isa = PBXGroup;
+			children = (
+				BDE9FE84E6D86A28EA198AAE33F13996 /* Dog.h */,
+				8788C1440E6804AE4553348527466078 /* Dog.m */,
+				60479D5D21D6B6582267E2EFACF98212 /* Pod */,
+				58F74B176B7BB260BC2FE7B23FBD9B67 /* Support Files */,
+			);
+			name = DamonPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				092739549F976FAEF8BF6165A9246424 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E9A959B3861870AD68EA560679DFC96D /* Products */,
+				9F2D622CDC86E9AE196383507FB2B55E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9A959B3861870AD68EA560679DFC96D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74AE4BB457C0230506794104082E307F /* DamonPod.framework */,
+				695A4EC8A7F2CD3697C2CC0AE3865F63 /* Pods_DamonPod_Example.framework */,
+				610F4C963AEB59DD1B99C62A9299C446 /* Pods_DamonPod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		188E4D69FC0C645C75DE2B14F5C25174 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0040508EDC20FA6A727B188D514FDCF7 /* DamonPod-umbrella.h in Headers */,
+				E6F9596649BB249DECB2C64C96963A46 /* Dog.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0264A3E4768CE1CD348E994627D616 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2037C72A9555A1E308FCB623FE4F1B4 /* Pods-DamonPod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84072EC7D793A65ECAD238053D4E3526 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53F5ABC07C990A111DDE4ED850E55FB /* Pods-DamonPod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2558E87C7D11990B621A14EE4C16EB12 /* DamonPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78B17C6D8434A48CD5567E5C3EBA0594 /* Build configuration list for PBXNativeTarget "DamonPod" */;
+			buildPhases = (
+				188E4D69FC0C645C75DE2B14F5C25174 /* Headers */,
+				91D0622EC61D68CCBB0D8D965DBCFAD9 /* Sources */,
+				CF284DAF34E7EDCD28FAF8FA64EBE70E /* Frameworks */,
+				292D740B30C8B613A0DEEC413588F61E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DamonPod;
+			productName = DamonPod;
+			productReference = 74AE4BB457C0230506794104082E307F /* DamonPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92982DC5DEFBB3FAA8342C294AF99CA0 /* Pods-DamonPod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28AD99CECBF0251F07DC39EA64F06707 /* Build configuration list for PBXNativeTarget "Pods-DamonPod_Example" */;
+			buildPhases = (
+				84072EC7D793A65ECAD238053D4E3526 /* Headers */,
+				2FE92E426A6DA35BF85E0EAE1F3E2C9F /* Sources */,
+				A891321234406FE01D6E10F6A2E62F3F /* Frameworks */,
+				D3675E59C644573B51B975CCBA805AC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE38C76A9B77AF644313A797B0299F65 /* PBXTargetDependency */,
+			);
+			name = "Pods-DamonPod_Example";
+			productName = "Pods-DamonPod_Example";
+			productReference = 695A4EC8A7F2CD3697C2CC0AE3865F63 /* Pods_DamonPod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		951C1AC283229D3F3B9CCAEC1934C52F /* Pods-DamonPod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B7E4E427A6EA7E2D4DE4C0BC0F13B81 /* Build configuration list for PBXNativeTarget "Pods-DamonPod_Tests" */;
+			buildPhases = (
+				4D0264A3E4768CE1CD348E994627D616 /* Headers */,
+				68D16E0967BFDD13C510B859B17C6905 /* Sources */,
+				AE9200F89A0A2F62F619C1DF37950C9A /* Frameworks */,
+				52FD5D1581EF73AA89B903B1F346B583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1E8BD72FF3D5339837213BCF5EEACCF /* PBXTargetDependency */,
+			);
+			name = "Pods-DamonPod_Tests";
+			productName = "Pods-DamonPod_Tests";
+			productReference = 610F4C963AEB59DD1B99C62A9299C446 /* Pods_DamonPod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E9A959B3861870AD68EA560679DFC96D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2558E87C7D11990B621A14EE4C16EB12 /* DamonPod */,
+				92982DC5DEFBB3FAA8342C294AF99CA0 /* Pods-DamonPod_Example */,
+				951C1AC283229D3F3B9CCAEC1934C52F /* Pods-DamonPod_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		292D740B30C8B613A0DEEC413588F61E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FD5D1581EF73AA89B903B1F346B583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3675E59C644573B51B975CCBA805AC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FE92E426A6DA35BF85E0EAE1F3E2C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68806F92894B938CC6A7AFA57ADDA790 /* Pods-DamonPod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D16E0967BFDD13C510B859B17C6905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE53013BEAE2457D6DE48AEA713FF59 /* Pods-DamonPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D0622EC61D68CCBB0D8D965DBCFAD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B530C5784FF7C7C8323A3D84243F9EE3 /* DamonPod-dummy.m in Sources */,
+				4896E05577A7811340623145C1162DE3 /* Dog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1E8BD72FF3D5339837213BCF5EEACCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DamonPod_Example";
+			target = 92982DC5DEFBB3FAA8342C294AF99CA0 /* Pods-DamonPod_Example */;
+			targetProxy = B48C438893EE0A0F527DD3EB2CB00105 /* PBXContainerItemProxy */;
+		};
+		FE38C76A9B77AF644313A797B0299F65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DamonPod;
+			target = 2558E87C7D11990B621A14EE4C16EB12 /* DamonPod */;
+			targetProxy = 5E24F708DA982371DFAF493DD492637D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14142B77461AC2B4871A07432E651556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADB3D117F9E23222FC47B94C05FDCD5B /* Pods-DamonPod_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DamonPod_Example/Pods-DamonPod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DamonPod_Example/Pods-DamonPod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1C2D05F00EBEAEA987DFE06A2B13C4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8954CD12AD1A38BD5B71318242F8B6A /* Pods-DamonPod_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DamonPod_Example/Pods-DamonPod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DamonPod_Example/Pods-DamonPod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A867976B2B8151B75DED4B6C6657C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B57836E3D2BD9F97F920B4D61313BA2 /* Pods-DamonPod_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DamonPod_Tests/Pods-DamonPod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DamonPod_Tests/Pods-DamonPod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F54E810ECD9C59CFDCD6DA4FFA385A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F21E8F9B22C8C7E2BC1A9CE60FFFFCF /* DamonPod.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DamonPod/DamonPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DamonPod/DamonPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DamonPod/DamonPod.modulemap";
+				PRODUCT_MODULE_NAME = DamonPod;
+				PRODUCT_NAME = DamonPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FD0422E5E1E5A5FB04F527828FD7732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAFF3C3CE083357125CE11DC89E2FB51 /* DamonPod.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DamonPod/DamonPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DamonPod/DamonPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DamonPod/DamonPod.modulemap";
+				PRODUCT_MODULE_NAME = DamonPod;
+				PRODUCT_NAME = DamonPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EDA4B6B17B063B921366054775DE2A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ED901C386F2070121901635D2D9264B /* Pods-DamonPod_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DamonPod_Tests/Pods-DamonPod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DamonPod_Tests/Pods-DamonPod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28AD99CECBF0251F07DC39EA64F06707 /* Build configuration list for PBXNativeTarget "Pods-DamonPod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C2D05F00EBEAEA987DFE06A2B13C4F0 /* Debug */,
+				14142B77461AC2B4871A07432E651556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78B17C6D8434A48CD5567E5C3EBA0594 /* Build configuration list for PBXNativeTarget "DamonPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F54E810ECD9C59CFDCD6DA4FFA385A8 /* Debug */,
+				5FD0422E5E1E5A5FB04F527828FD7732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B7E4E427A6EA7E2D4DE4C0BC0F13B81 /* Build configuration list for PBXNativeTarget "Pods-DamonPod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA4B6B17B063B921366054775DE2A24 /* Debug */,
+				2A867976B2B8151B75DED4B6C6657C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

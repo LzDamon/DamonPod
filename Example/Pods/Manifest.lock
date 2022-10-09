@@ -1,0 +1,16 @@
+PODS:
+  - DamonPod (0.1.0)
+
+DEPENDENCIES:
+  - DamonPod (from `../`)
+
+EXTERNAL SOURCES:
+  DamonPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DamonPod: 0dc6800f7a1afc0ab497c07f2ce5020fce7a6f91
+
+PODFILE CHECKSUM: 50708b38264320275dde5932f701eda603e09e2b
+
+COCOAPODS: 1.10.1
