@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'DamonPod_Example' do
+  pod 'DamonPod', :path => '../'
+
+  target 'DamonPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
